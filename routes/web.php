@@ -25,3 +25,6 @@ Route::resources([
     'articles' => 'ArticleController',
 //    'posts' => 'PostController'
 ]);
+Route::get('about',[\App\Http\Controllers\SiteController::class,'about'])->name('about');
+Route::get('blog',[\App\Http\Controllers\SiteController::class,'blog'])->name('blog');
+Route::get('singleblog',[\App\Http\Controllers\SiteController::class,'singleblog'])->name('singleblog');
