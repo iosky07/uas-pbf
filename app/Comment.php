@@ -17,8 +17,8 @@ use Illuminate\Database\Eloquent\Model;
 class Comment extends Model
 {
     /**
-     * The "type" of the auto-incrementing ID.
-     * 
+     * The "type" of the auto-incrementing ID.p
+     *
      * @var string
      */
     protected $keyType = 'integer';
