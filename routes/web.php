@@ -23,12 +23,12 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resources([
     'articles' => 'ArticleController',
-    'suggestions' => 'CriticController',
+    'suggestions' => 'CriticController'
 //    'posts' => 'PostController'
 ]);
 Route::get('about',[\App\Http\Controllers\SiteController::class,'about'])->name('about');
 Route::get('blog',[\App\Http\Controllers\SiteController::class,'blog'])->name('blog');
 Route::get('singleblog',[\App\Http\Controllers\SiteController::class,'singleblog'])->name('singleblog');
-Route::get('kritik',[\App\Http\Controllers\SiteController::class,'kritik'])->name('kritik');
+Route::get('pagekritik',[\App\Http\Controllers\SiteController::class,'pagekritik'])->name('pagekritik');
 
 Route::get('critic',[\App\Http\Controllers\CriticController::class,'index'])->name('critic');

@@ -20,7 +20,7 @@ class SiteController extends Controller
     {
         return view('pages.site.singleblog');
     }
-    public function kritik()
+    public function pagekritik()
     {
         return view('pages.site.kritik');
     }
