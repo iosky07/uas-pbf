@@ -52,7 +52,7 @@
                                 <a class="nav-link" href="{{ route('blog') }}">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('kritik') }}">Kritik Saran</a>
+                                <a class="nav-link" href="{{ route('pagekritik') }}">Kritik Saran</a>
                             </li>
                             <li class="d-none d-lg-block">
                                 <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
