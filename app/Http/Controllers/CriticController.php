@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Suggestion;
 use Illuminate\Http\Request;
-
+use App\Critic;
 class CriticController extends Controller
 {
     /**
@@ -23,7 +24,7 @@ class CriticController extends Controller
      */
     public function create()
     {
-        //
+        return view('pages.critic.index');
     }
 
     /**
@@ -34,7 +35,13 @@ class CriticController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+            'critic' => 'required|max:255',
+            'suggestion' => 'required|max:255',
+        ]);
+        $suggestion = Suggestion::create($validatedData);
+
+        return redirect('/suggestions')->with('success', 'Critic is successfully saved');
     }
 
     /**
