@@ -29,3 +29,5 @@ Route::get('about',[\App\Http\Controllers\SiteController::class,'about'])->name(
 Route::get('blog',[\App\Http\Controllers\SiteController::class,'blog'])->name('blog');
 Route::get('singleblog',[\App\Http\Controllers\SiteController::class,'singleblog'])->name('singleblog');
 Route::get('kritik',[\App\Http\Controllers\SiteController::class,'kritik'])->name('kritik');
+
+Route::get('critic',[\App\Http\Controllers\CriticController::class,'index'])->name('critic');
