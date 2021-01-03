@@ -51,14 +51,8 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('blog') }}">Blog</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Pages
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="single-blog.html">Single blog</a>
-                                    <a class="dropdown-item" href="elements.html">Elements</a>
-                                </div>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('pagekritik') }}">Kritik Saran</a>
                             </li>
                             <li class="d-none d-lg-block">
                                 <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
@@ -393,70 +387,6 @@
                             <div class="col-lg-4 col-xl-2 col-sm-4">
                                 <div class="testimonial_slider_img">
                                     <img src="img/testimonial_img_1.png" alt="#">
-                                </div>
-                            </div>
-                            <div class="col-xl-4 d-none d-xl-block">
-                                <div class="testimonial_slider_text">
-                                    <p>Behold place was a multiply creeping creature his domin to thiren open void
-                                        hath herb divided divide creepeth living shall i call beginning
-                                        third sea itself set</p>
-                                    <h4>Michel Hashale</h4>
-                                    <h5> Sr. Web designer</h5>
-                                </div>
-                            </div>
-                            <div class="col-xl-2 d-none d-xl-block">
-                                <div class="testimonial_slider_img">
-                                    <img src="img/testimonial_img_1.png" alt="#">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial_slider">
-                        <div class="row">
-                            <div class="col-lg-8 col-xl-4 col-sm-8 align-self-center">
-                                <div class="testimonial_slider_text">
-                                    <p>Behold place was a multiply creeping creature his domin to thiren open void
-                                        hath herb divided divide creepeth living shall i call beginning
-                                        third sea itself set</p>
-                                    <h4>Michel Hashale</h4>
-                                    <h5> Sr. Web designer</h5>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-xl-2 col-sm-4">
-                                <div class="testimonial_slider_img">
-                                    <img src="img/testimonial_img_2.png" alt="#">
-                                </div>
-                            </div>
-                            <div class="col-xl-4 d-none d-xl-block">
-                                <div class="testimonial_slider_text">
-                                    <p>Behold place was a multiply creeping creature his domin to thiren open void
-                                        hath herb divided divide creepeth living shall i call beginning
-                                        third sea itself set</p>
-                                    <h4>Michel Hashale</h4>
-                                    <h5> Sr. Web designer</h5>
-                                </div>
-                            </div>
-                            <div class="col-xl-2 d-none d-xl-block">
-                                <div class="testimonial_slider_img">
-                                    <img src="img/testimonial_img_1.png" alt="#">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial_slider">
-                        <div class="row">
-                            <div class="col-lg-8 col-xl-4 col-sm-8 align-self-center">
-                                <div class="testimonial_slider_text">
-                                    <p>Behold place was a multiply creeping creature his domin to thiren open void
-                                        hath herb divided divide creepeth living shall i call beginning
-                                        third sea itself set</p>
-                                    <h4>Michel Hashale</h4>
-                                    <h5> Sr. Web designer</h5>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-xl-2 col-sm-4">
-                                <div class="testimonial_slider_img">
-                                    <img src="img/testimonial_img_3.png" alt="#">
                                 </div>
                             </div>
                             <div class="col-xl-4 d-none d-xl-block">
