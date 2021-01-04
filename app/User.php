@@ -2,7 +2,9 @@
 
 namespace App;
 
+use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Auth\Authenticatable as AuthenticableTrait;
 
 /**
  * @property integer $id
@@ -20,11 +22,12 @@ use Illuminate\Database\Eloquent\Model;
  * @property Comment[] $comments
  * @property Suggestion[] $suggestions
  */
-class User extends Model
+class User extends Model implements Authenticatable
 {
+    use AuthenticableTrait;
     /**
      * The "type" of the auto-incrementing ID.
-     * 
+     *
      * @var string
      */
     protected $keyType = 'integer';

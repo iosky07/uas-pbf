@@ -52,6 +52,12 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('blog') }}">Blog</a>
                             </li>
+<<<<<<< Updated upstream
+=======
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('suggestions.index') }}">Kritik Saran</a>
+                            </li>
+>>>>>>> Stashed changes
                             <li class="d-none d-lg-block">
                                 <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
                                     @if (Route::has('login'))
