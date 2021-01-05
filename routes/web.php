@@ -23,7 +23,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resources([
     'articles' => 'ArticleController',
-//    'posts' => 'PostController'
+    'suggestions' => 'SuggestionController',
+    'comments' => 'CommentController'
 ]);
 Route::get('about',[\App\Http\Controllers\SiteController::class,'about'])->name('about');
 Route::get('blog',[\App\Http\Controllers\SiteController::class,'blog'])->name('blog');
