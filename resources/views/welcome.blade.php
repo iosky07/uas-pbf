@@ -51,8 +51,16 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('blog') }}">Blog</a>
                             </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="single-blog.html">Single blog</a>
+                                    <a class="dropdown-item" href="elements.html">Elements</a>
+                                </div>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('pagekritik') }}">Kritik Saran</a>
+                                <a class="nav-link" href="{{ route('suggestions.index') }}">Kritik Saran</a>
                             </li>
                             <li class="d-none d-lg-block">
                                 <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
