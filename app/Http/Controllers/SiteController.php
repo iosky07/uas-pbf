@@ -2,8 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Content;
-use App\Models\Tag;
+use App\Article;
 use Illuminate\Http\Request;
 
 class SiteController extends Controller
@@ -14,7 +13,8 @@ class SiteController extends Controller
     }
     public function blog()
     {
-        return view('pages.site.blog');
+        $article = Article::all();
+        return view('pages.site.blog', compact('article'));
     }
     public function singleblog()
     {

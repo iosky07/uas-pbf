@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/dashboard', 'HomeController@index')->name('home');
 
 Route::resources([
     'articles' => 'ArticleController',
@@ -27,7 +27,7 @@ Route::resources([
     'comments' => 'CommentController'
 ]);
 Route::get('about',[\App\Http\Controllers\SiteController::class,'about'])->name('about');
-Route::get('blog',[\App\Http\Controllers\ArticleController::class,'index'])->name('blog');
+Route::get('blog',[\App\Http\Controllers\SiteController::class,'blog'])->name('blog');
 Route::get('singleblog',[\App\Http\Controllers\SiteController::class,'singleblog'])->name('singleblog');
 Route::get('pagekritik',[\App\Http\Controllers\SiteController::class,'pagekritik'])->name('pagekritik');
 
