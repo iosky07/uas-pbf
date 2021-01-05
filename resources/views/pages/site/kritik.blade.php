@@ -74,7 +74,7 @@
         </div>
     </section>
     @endisset
-    @if($user==NULL)
+    @if($user==null)
         <section class="feature_part single_feature_padding">
             <div class="container-fluid">
                 <div class="row justify-content-center">

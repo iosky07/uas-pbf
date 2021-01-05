@@ -32,8 +32,8 @@
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand logo_1" href="index.html"> <img src="{{asset('frontend/img/single_page_logo.png')}}" alt="logo"> </a>
-                    <a class="navbar-brand logo_2" href="index.html"> <img src="{{asset('frontend/img/logo.png')}}" alt="logo"> </a>
+                    <a class="navbar-brand logo_1" href="/"> <img src="{{asset('frontend/img/single_page_logo.png')}}" alt="logo"> </a>
+                    <a class="navbar-brand logo_2" href="/"> <img src="{{asset('frontend/img/logo.png')}}" alt="logo"> </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -53,16 +53,35 @@
                                 <a class="nav-link" href="{{ route('blog') }}">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('suggestions.index') }}">Kritik Saran</a>
+                                <a class="nav-link" href="{{ route('pagekritik') }}">Kritik Saran</a>
                             </li>
                             <li class="d-none d-lg-block">
                                 <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
                                     @if (Route::has('login'))
                                         <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                                             @auth
-                                                <a class="btn_1" href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="{{ url('/dashboard') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        {{ Auth::user()->name }}
+                                                    </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="{{ url('/dashboard') }}">Dashboard</a>
+                                                    @if(Auth::user()->role==2)
+                                                        <a class="dropdown-item" href="{{ url('/profile') }}">Profil</a>
+                                                    @endif
+                                                <a class="dropdown-item" href="{{ route('logout') }}"
+                                                    onclick="event.preventDefault();
+                                                    document.getElementById('logout-form').submit();">
+                                                    {{ __('Logout') }}
+                                                </a>
+                                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                                        @csrf
+                                                    </form>
+                                                </div>
+                                                </li>
                                             @else
                                                 <a class="btn_1" href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
+                                                <a class="btn_1" href="{{ route('register') }}" class="text-sm text-gray-700 underline">Register</a>
                                             @endif
                                         </div>
                                 @endif

@@ -51,28 +51,33 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('blog') }}">Blog</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Pages
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="single-blog.html">Single blog</a>
-                                    <a class="dropdown-item" href="elements.html">Elements</a>
-                                </div>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('suggestions.index') }}">Kritik Saran</a>
+                                <a class="nav-link" href="{{ route('pagekritik') }}">Kritik Saran</a>
                             </li>
                             <li class="d-none d-lg-block">
                                 <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
                                     @if (Route::has('login'))
                                         <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                                             @auth
-                                                @if(Auth::user()->role==1)
-                                                    <a class="btn_1" href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
-                                                @endif
-                                                @if(Auth::user()->role==2)
-                                                    <a class="btn_1" href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboardaaa</a>
-                                                @endif
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="{{ url('/dashboard') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        {{ Auth::user()->name }}
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                        <a class="dropdown-item" href="{{ url('/dashboard') }}">Dashboard</a>
+                                                        @if(Auth::user()->role==2)
+                                                            <a class="dropdown-item" href="{{ url('/dashboard') }}">Profil</a>
+                                                        @endif
+                                                        <a class="dropdown-item" href="{{ route('logout') }}"
+                                                           onclick="event.preventDefault();
+                                                            document.getElementById('logout-form').submit();">
+                                                            {{ __('Logout') }}
+                                                        </a>
+                                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                                            @csrf
+                                                        </form>
+                                                    </div>
+                                                </li>
                                             @else
                                                 <a class="btn_1" href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
                                                 <a class="btn_1" href="{{ route('register') }}" class="text-sm text-gray-700 underline">Register</a>

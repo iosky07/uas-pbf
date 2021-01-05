@@ -5,7 +5,10 @@ namespace App\Http\Controllers;
 use App\Article;
 use App\Models\Content;
 use App\Models\Tag;
+use App\Suggestion;
+use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class SiteController extends Controller
 {
@@ -24,6 +27,11 @@ class SiteController extends Controller
     }
     public function pagekritik()
     {
-        return view('pages.site.kritik');
+        $suggestions = Suggestion::all();
+        $user = Auth::id();
+        return view('pages.site.kritik', compact('suggestions','user'));
+    }
+    public function passprofile(){
+        $profile = User::all();
     }
 }
