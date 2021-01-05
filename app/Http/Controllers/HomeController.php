@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Article;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -23,6 +25,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('pages/site/blog');
+        if (Auth::user()->role==1){
+            $article = Article::all();
+            return view('pages.article.index', compact('article'));
+        }
+        $article = Article::all();
+        return view('pages.site.blog', compact('article'));
     }
 }
