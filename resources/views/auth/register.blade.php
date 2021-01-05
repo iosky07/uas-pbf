@@ -106,7 +106,7 @@
                     </div>
 
                     <div class="card card-primary">
-                        <div class="card-header"><h4>Login</h4></div>
+                        <div class="card-header"><h4>Register</h4></div>
                         <div class="card-body">
                             <form method="POST" action="{{ route('register') }}">
                                 @csrf
@@ -172,7 +172,7 @@
                         </div>
                     </div>
                     <div class="mt-5 text-muted text-center">
-                        Don't have an account? <a href="auth-register.html">Create One</a>
+                        Udah Punya Akun? <a href="{{ route('login') }}">Login Disini</a>
                     </div>
                     <div class="simple-footer">
                         Copyright &copy; Stisla 2018

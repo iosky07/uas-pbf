@@ -1,10 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Article;
-use Illuminate\Http\Request;
 
-class ArticleController extends Controller
+use App\Suggestion;
+use Illuminate\Http\Request;
+use App\Critic;
+class CriticController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +14,7 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        return view('pages.article.index');
+        return view('pages.critic.index');
     }
 
     /**
@@ -23,7 +24,7 @@ class ArticleController extends Controller
      */
     public function create()
     {
-        //
+        return view('pages.critic.index');
     }
 
     /**
@@ -34,7 +35,13 @@ class ArticleController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+            'critic' => 'required|max:255',
+            'suggestion' => 'required|max:255',
+        ]);
+        $suggestion = Suggestion::create($validatedData);
+
+        return redirect('/suggestions')->with('success', 'Critic is successfully saved');
     }
 
     /**

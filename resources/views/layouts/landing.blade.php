@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Etrain</title>
+    <title>E-ticle</title>
     <link rel="icon" href="{{asset('frontend/img/favicon.png')}}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{asset('frontend/css/bootstrap.min.css')}}">
@@ -52,12 +52,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('blog') }}">Blog</a>
                             </li>
-<<<<<<< Updated upstream
-=======
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('suggestions.index') }}">Kritik Saran</a>
                             </li>
->>>>>>> Stashed changes
                             <li class="d-none d-lg-block">
                                 <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
                                     @if (Route::has('login'))
