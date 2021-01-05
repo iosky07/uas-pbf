@@ -19,17 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CriticController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Suggestion.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Suggestion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/landing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/landing.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/site/kritik.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/site/kritik.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    <list default="true" id="6df15ecd-8299-4fee-91f7-f4afc650b486" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/site/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/site/blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <list default="true" id="6df15ecd-8299-4fee-91f7-f4afc650b486" name="Default Changelist" comment="" />
@@ -187,7 +184,7 @@
       <workItem from="1609744898095" duration="3869000" />
       <workItem from="1609769799743" duration="4373000" />
       <workItem from="1609745141665" duration="1222000" />
-      <workItem from="1609805421471" duration="5230000" />
+      <workItem from="1609805421471" duration="12057000" />
     </task>
     <servers />
   </component>
@@ -198,27 +195,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609587653900">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609825059234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609587653900" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1609771878064">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609771878064" />
-    <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1609684668028">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609684668028" />
-    <state width="1493" height="204" key="GridCell.Tab.0.center" timestamp="1609684668028">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609684668028" />
-    <state width="1493" height="204" key="GridCell.Tab.0.left" timestamp="1609684668028">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609684668028" />
-    <state width="1493" height="204" key="GridCell.Tab.0.right" timestamp="1609684668028">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609825059234" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1609809999866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609684668028" />
@@ -226,9 +207,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="332" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1608867267046" />
-    <state x="479" y="129" width="577" height="566" key="find.popup" timestamp="1609807441845">
+    <state x="479" y="129" width="577" height="566" key="find.popup" timestamp="1609824842405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="479" y="129" width="577" height="566" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1609807441845" />
+    <state x="479" y="129" width="577" height="566" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1609824842405" />
   </component>
 </project>

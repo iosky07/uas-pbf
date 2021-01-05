@@ -67,9 +67,15 @@
                                     @if (Route::has('login'))
                                         <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                                             @auth
-                                                <a class="btn_1" href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
+                                                @if(Auth::user()->role==1)
+                                                    <a class="btn_1" href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
+                                                @endif
+                                                @if(Auth::user()->role==2)
+                                                    <a class="btn_1" href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboardaaa</a>
+                                                @endif
                                             @else
                                                 <a class="btn_1" href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
+                                                <a class="btn_1" href="{{ route('register') }}" class="text-sm text-gray-700 underline">Register</a>
                                             @endif
                                         </div>
                                 @endif

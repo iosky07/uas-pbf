@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Article;
+use App\Models\Content;
+use App\Models\Tag;
 use Illuminate\Http\Request;
 
 class SiteController extends Controller
