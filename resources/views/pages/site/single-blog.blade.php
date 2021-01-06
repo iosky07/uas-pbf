@@ -74,6 +74,7 @@
                     </div>
                     @endforeach
                 </div>
+                @isset($user)
                 <div class="comment-form">
                     <h4>Masukkan Komentar</h4>
                     <form class="form-contact comment_form" action="{{ route('update-comment', $a->id) }}" method="GET" id="commentForm">
@@ -91,6 +92,12 @@
                         </div>
                     </form>
                 </div>
+                @endisset
+                @if($user==null)
+                        <div class="comment-form">
+                            <h4 class="alert alert-danger">Anda harus login terlebih dahulu untuk melakukan komentar</h4>
+                        </div>
+                @endif
             </div>
         </div>
     </div>
