@@ -26,8 +26,8 @@ class HomeController extends Controller
     public function index()
     {
         if (Auth::user()->role==1){
-            $article = Article::all();
-            return view('pages.article.index', compact('article'));
+            $articles = Article::all();
+            return view('pages.article.index', compact('articles'));
         }
         $article = Article::all();
         return view('pages.site.blog', compact('article'));

@@ -2,10 +2,14 @@
 
 namespace App\Http\Controllers;
 use App\Article;
+use App\Comment;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 
 class ArticleController extends Controller
 {
+    public $data;
     /**
      * Display a listing of the resource.
      *
@@ -13,8 +17,8 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        $article = Article::all();
-        return view('pages.article.index', compact('article'));
+        $articles = Article::all();
+        return view('pages.article.index', compact('articles'));
     }
 
     /**
@@ -24,7 +28,7 @@ class ArticleController extends Controller
      */
     public function create()
     {
-        //
+        return view('pages.article.create');
     }
 
     /**
@@ -35,7 +39,16 @@ class ArticleController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->data['title'] = $request->judul;
+        $this->data['content'] = $request->contents;
+        $this->data['thumbnail'] = date('dmyHis') . '.' . $request->file->extension();
+        Storage::putFileAs('public/article-img', $request->file, $this->data['thumbnail']);
+        $this->data['id_user'] = Auth::id();
+
+//        dd($this->data);
+        Article::create($this->data);
+
+        return redirect(route('articles.index'));
     }
 
     /**
@@ -46,7 +59,9 @@ class ArticleController extends Controller
      */
     public function show($id)
     {
-        //
+        $article = Article::whereId($id)->get();
+
+        return view('pages.article.show', compact('article'));
     }
 
     /**
@@ -57,7 +72,9 @@ class ArticleController extends Controller
      */
     public function edit($id)
     {
-        //
+        $article = Article::whereId($id)->get();
+
+        return view('pages.article.edit', compact('article'));
     }
 
     /**
@@ -69,7 +86,18 @@ class ArticleController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->data['title'] = $request->judul;
+        $this->data['content'] = $request->contents;
+        if ($request->file != NULL) {
+            $this->data['thumbnail'] = date('dmyHis') . '.' . $request->file->extension();
+            Storage::putFileAs('public/article-img', $request->file, $this->data['thumbnail']);
+        }
+        $this->data['id_user'] = Auth::id();
+
+//        dd($this->data);
+        Article::find($id)->update($this->data);
+
+        return redirect(route('articles.index'));
     }
 
     /**
@@ -80,6 +108,7 @@ class ArticleController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Article::find($id)->delete();
+        return redirect(route('articles.index'));
     }
 }
