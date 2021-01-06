@@ -48,9 +48,13 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('blog') }}">Blog</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('pagekritik') }}">Kritik Saran</a>
-                            </li>
+                            @if(Auth::check())
+                                @if(Auth::user()->role==2)
+                              <li class="nav-item">
+                                  <a class="nav-link" href="{{ route('pagekritik') }}">Kritik Saran</a>
+                              </li>
+                                @endif
+                            @endif
                             <li class="d-none d-lg-block">
                                 <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
                                     @if (Route::has('login'))
@@ -100,8 +104,9 @@
                     <div class="banner_text_iner">
                         <h5>E-ticle</h5>
                         <h1>KELOMPOK 7</h1><hr>
-                        <p>Role Admin:<br> admin@gmail.com pw=katasandi <br> (CRUD Artikel, RD Comment, RD User, RD Kritik Saran)<hr>
-                        <br>Role User: <br>user@gmail.com pw=katasandi <br> (Register, RU Profil, CRD Comment, C Kritik Saran)</p>
+                        <p>Role Admin:<br> admin@gmail.com pw=katasandi <br> (CRUD Artikel, CRD Comment, RD User, RD Kritik Saran)</p>
+                        <br>Role User 1: <br>user1@gmail.com pw=katasandi <br> (Register, RU Profil, CRD Comment, C Kritik Saran)</p>
+                        <br>Role User 2: <br>user2@gmail.com pw=katasandi <br> (Register, RU Profil, CRD Comment, C Kritik Saran)</p>
                         @if (Route::has('login'))
                             <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                                 @auth

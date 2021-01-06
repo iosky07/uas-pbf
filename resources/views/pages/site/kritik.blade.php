@@ -51,14 +51,15 @@
                         <div class="form-group mt-3">
                             <input type="submit" value="kirim" class="button button-contactForm btn_1">
                         </div>
+                        <p>Kritik dan Saran akan terkirim ke Admin</p>
                     </form>
                 </div>
                 <div class="col-lg-4">
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-home"></i></span>
                         <div class="media-body">
-                            <h3>Sistem Informasi, Ilmu Komputer</h3>
-                            <p>Universitas Jember</p>
+                            <h3>Kritik dan Saran</h3>
+                            <p>Kritik dan saran akan terkirim ke Admin</p>
                         </div>
                     </div>
                     <div class="media contact-info">
