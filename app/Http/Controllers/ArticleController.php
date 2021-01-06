@@ -133,6 +133,7 @@ class ArticleController extends Controller
      */
     public function update(Request $request, $id)
     {
+//        dd($request->file);
         $this->data['title'] = $request->judul;
         $this->data['content'] = $request->contents;
         if ($request->file != NULL) {

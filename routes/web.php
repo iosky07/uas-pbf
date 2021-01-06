@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 Auth::routes();
 
@@ -37,3 +37,6 @@ Route::get('pagekritik',[\App\Http\Controllers\SiteController::class,'pagekritik
 
 Route::get('comment/{id}/',[\App\Http\Controllers\CommentController::class,'updateComment'])->name('update-comment');
 Route::get('comment/{id}/{id_article}',[\App\Http\Controllers\CommentController::class,'destroyComment'])->name('destroy-comment');
+
+Route::get('profile/{id}/',[\App\Http\Controllers\UserController::class,'storeThumbnail'])->name('store-thumbnail');
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8820a00c-3d13-4c73-807f-63219f23d8d2" name="yyy">
+        <fileTransfer rootFolder="/home/182410101078/uas" accessType="SFTP" host="proxy.ilkom.unej.ac.id" port="22102" sshConfigId="ac149d1a-6045-4a07-a77d-41ba2fa52d5d" sshConfig="182410101078@proxy.ilkom.unej.ac.id:22102 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
