@@ -35,7 +35,8 @@ class SiteController extends Controller
             $this->array = $u;
         }
 
-        return view('pages.site.single-blog', compact('article', 'comments', 'comment_count'));
+        $user = Auth::id();
+        return view('pages.site.single-blog', compact('article', 'comments', 'comment_count', 'user'));
     }
     public function pagekritik()
     {
