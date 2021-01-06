@@ -23,13 +23,13 @@
         <div class="container">
             <div class="row">
                 @foreach($article as $ticle)
-                    <div class="col-sm-5 col-md-3" style="margin-bottom: 30px; margin-outside: 30px">
+                    <div class="col-sm-5 col-md-3" style="margin-bottom: 30px;">
                         <div class="card" style="width: 18rem;">
-                            <img src="{{asset('stisla/assets/img/news/img01.jpg')}}" class="card-img-top" alt="...">
+                            <img src="{{asset('storage/article-img/'.$ticle->thumbnail)}}" class="card-img-top" style="height: 300px; width: 300px" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">{{$ticle->title}}</h5>
                                 <p class="card-text">{{$ticle->content}}</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="{{ route('single-blog', $ticle->id) }}" class="btn btn-primary">Baca Selengkapnya</a>
                             </div>
                         </div>
                     </div>

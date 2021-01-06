@@ -31,5 +31,8 @@ Route::resources([
 ]);
 Route::get('about',[\App\Http\Controllers\SiteController::class,'about'])->name('about');
 Route::get('blog',[\App\Http\Controllers\SiteController::class,'blog'])->name('blog');
-Route::get('singleblog',[\App\Http\Controllers\SiteController::class,'singleblog'])->name('singleblog');
+Route::get('single-blog/{id}/',[\App\Http\Controllers\SiteController::class,'singleBlog'])->name('single-blog');
 Route::get('pagekritik',[\App\Http\Controllers\SiteController::class,'pagekritik'])->name('pagekritik');
+
+Route::get('comment/{id}/',[\App\Http\Controllers\CommentController::class,'updateComment'])->name('update-comment');
+Route::get('comment/{id}/{id_article}',[\App\Http\Controllers\CommentController::class,'destroyComment'])->name('destroy-comment');

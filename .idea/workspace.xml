@@ -19,19 +19,886 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170793f4-65f9-46d0-8031-85c87d0c5387" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/profile/index.blade.php" afterDir="false" />
+    <list default="true" id="6df15ecd-8299-4fee-91f7-f4afc650b486" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/.github/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/.github/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/sort-arrow-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/sorter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/Context.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/core/async.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/core/dom.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/core/env.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/core/func.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/core/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/core/key.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/core/lists.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/core/range.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/editing/Bullet.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/editing/History.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/editing/Style.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/editing/Table.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/editing/Typing.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/editing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/AirPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/AutoLink.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/AutoReplace.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/AutoSync.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/Buttons.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/Clipboard.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/Codeview.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/Dropzone.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/Editor.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/Fullscreen.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/Handle.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/HelpDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/HintPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/ImageDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/ImagePopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/LinkDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/LinkPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/Placeholder.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/Statusbar.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/TablePopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/Toolbar.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/VideoDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/module/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/renderer.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/base/summernote-en-US.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/bs3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/bs3/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/bs3/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/bs4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/bs4/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/bs4/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/lite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/lite/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/lite/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/lite/ui/DropdownUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/lite/ui/ModalUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/lite/ui/PopoverUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/lite/ui/TooltipUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/lite/ui/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/src/js/summernote.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/Context.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/core/dom.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/core/func.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/core/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/core/key.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/core/lists.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/core/range.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/editing/Table.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/editing/Typing.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/editing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/editing/style.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/module/Buttons.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/module/Codeview.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/module/Editor.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/module/Fullscreen.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/module/LinkDialog.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/module/VideoDialog.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.0)/html/test/unit/base/module/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/sort-arrow-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/sorter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/Context.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/core/async.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/core/dom.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/core/env.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/core/func.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/core/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/core/key.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/core/lists.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/core/range.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/editing/Bullet.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/editing/History.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/editing/Style.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/editing/Table.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/editing/Typing.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/editing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/AirPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/AutoLink.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/AutoReplace.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/AutoSync.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/Buttons.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/Clipboard.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/Codeview.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/Dropzone.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/Editor.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/Fullscreen.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/Handle.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/HelpDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/HintPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/ImageDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/ImagePopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/LinkDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/LinkPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/Placeholder.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/Statusbar.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/TablePopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/Toolbar.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/VideoDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/module/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/renderer.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/base/summernote-en-US.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/bs3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/bs3/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/bs3/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/bs4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/bs4/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/bs4/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/lite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/lite/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/lite/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/lite/ui/DropdownUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/lite/ui/ModalUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/lite/ui/PopoverUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/lite/ui/TooltipUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/lite/ui/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/src/js/summernote.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/Context.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/core/dom.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/core/func.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/core/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/core/key.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/core/lists.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/core/range.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/editing/Table.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/editing/Typing.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/editing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/editing/style.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/module/Buttons.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/module/Codeview.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/module/Editor.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/module/Fullscreen.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/module/LinkDialog.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/module/VideoDialog.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/base/module/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/Context.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/core/dom.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/core/func.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/core/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/core/key.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/core/lists.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/core/range.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/editing/Table.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/editing/Typing.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/editing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/editing/style.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/module/Buttons.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/module/Codeview.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/module/Editor.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/module/Fullscreen.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/module/LinkDialog.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/module/VideoDialog.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 0.0.0 (Mac OS X 10.14.1)/html/test/unit/base/module/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/sort-arrow-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/sorter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/Context.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/core/async.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/core/dom.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/core/env.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/core/func.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/core/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/core/key.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/core/lists.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/core/range.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/editing/Bullet.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/editing/History.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/editing/Style.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/editing/Table.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/editing/Typing.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/editing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/AirPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/AutoLink.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/AutoReplace.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/AutoSync.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/Buttons.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/Clipboard.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/Codeview.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/Dropzone.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/Editor.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/Fullscreen.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/Handle.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/HelpDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/HintPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/ImageDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/ImagePopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/LinkDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/LinkPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/Placeholder.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/Statusbar.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/TablePopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/Toolbar.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/VideoDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/module/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/renderer.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/base/summernote-en-US.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/bs3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/bs3/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/bs3/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/bs4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/bs4/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/bs4/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/lite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/lite/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/lite/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/lite/ui/DropdownUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/lite/ui/ModalUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/lite/ui/PopoverUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/lite/ui/TooltipUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/lite/ui/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/src/js/summernote.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/Context.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/core/dom.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/core/func.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/core/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/core/key.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/core/lists.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/core/range.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/editing/Table.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/editing/Typing.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/editing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/editing/style.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/module/Buttons.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/module/Codeview.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/module/Editor.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/module/Fullscreen.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/module/LinkDialog.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/module/VideoDialog.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 72.0.3626 (Mac OS X 10.14.1)/html/test/base/module/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/sort-arrow-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/sorter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/Context.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/core/async.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/core/dom.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/core/env.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/core/func.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/core/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/core/key.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/core/lists.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/core/range.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/editing/Bullet.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/editing/History.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/editing/Style.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/editing/Table.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/editing/Typing.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/editing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/AirPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/AutoLink.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/AutoReplace.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/AutoSync.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/Buttons.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/Clipboard.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/Codeview.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/Dropzone.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/Editor.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/Fullscreen.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/Handle.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/HelpDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/HintPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/ImageDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/ImagePopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/LinkDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/LinkPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/Placeholder.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/Statusbar.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/TablePopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/Toolbar.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/VideoDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/module/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/renderer.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/base/summernote-en-US.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/bs3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/bs3/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/bs3/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/bs4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/bs4/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/bs4/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/lite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/lite/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/lite/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/lite/ui/DropdownUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/lite/ui/ModalUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/lite/ui/PopoverUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/lite/ui/TooltipUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/lite/ui/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/src/js/summernote.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/Context.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/core/dom.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/core/func.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/core/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/core/key.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/core/lists.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/core/range.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/editing/Table.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/editing/Typing.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/editing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/editing/style.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/module/Buttons.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/module/Codeview.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/module/Editor.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/module/Fullscreen.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/module/LinkDialog.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/module/VideoDialog.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/HeadlessChrome 74.0.3729 (Mac OS X 10.14.5)/html/test/base/module/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/sort-arrow-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/sorter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/Context.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/core/async.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/core/dom.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/core/env.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/core/func.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/core/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/core/key.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/core/lists.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/core/range.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/editing/Bullet.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/editing/History.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/editing/Style.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/editing/Table.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/editing/Typing.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/editing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/AirPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/AutoLink.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/AutoReplace.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/AutoSync.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/Buttons.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/Clipboard.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/Codeview.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/Dropzone.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/Editor.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/Fullscreen.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/Handle.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/HelpDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/HintPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/ImageDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/ImagePopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/LinkDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/LinkPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/Placeholder.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/Statusbar.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/TablePopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/Toolbar.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/VideoDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/module/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/renderer.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/base/summernote-en-US.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/bs3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/bs3/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/bs3/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/bs4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/bs4/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/bs4/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/lite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/lite/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/lite/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/lite/ui/DropdownUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/lite/ui/ModalUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/lite/ui/PopoverUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/lite/ui/TooltipUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/lite/ui/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/src/js/summernote.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/Context.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/core/dom.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/core/func.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/core/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/core/key.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/core/lists.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/core/range.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/editing/Table.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/editing/Typing.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/editing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/editing/style.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/module/Buttons.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/module/Codeview.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/module/Editor.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/module/Fullscreen.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/module/LinkDialog.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/module/VideoDialog.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/base/module/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/Context.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/core/dom.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/core/func.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/core/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/core/key.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/core/lists.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/core/range.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/editing/Table.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/editing/Typing.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/editing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/editing/style.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/module/AEditor.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/module/Button.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/module/Buttons.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/module/Codeview.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/module/Editor.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/module/Fullscreen.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/module/LinkDialog.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/module/VideoDialog.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/base/module/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/bs/module/Buttons.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/bs/module/VideoDialog.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/html/test/unit/bs/module/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/sort-arrow-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/sorter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/Context.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/core/async.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/core/dom.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/core/env.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/core/func.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/core/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/core/key.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/core/lists.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/core/range.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/editing/Bullet.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/editing/History.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/editing/Style.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/editing/Table.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/editing/Typing.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/editing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/AirPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/AutoLink.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/AutoReplace.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/AutoSync.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/Buttons.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/Clipboard.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/Codeview.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/Dropzone.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/Editor.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/Fullscreen.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/Handle.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/HelpDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/HintPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/ImageDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/ImagePopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/LinkDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/LinkPopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/Placeholder.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/Statusbar.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/TablePopover.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/Toolbar.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/VideoDialog.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/module/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/renderer.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/base/summernote-en-US.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/bs3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/bs3/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/bs3/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/bs4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/bs4/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/bs4/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/lite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/lite/settings.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/lite/ui.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/lite/ui/DropdownUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/lite/ui/ModalUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/lite/ui/PopoverUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/lite/ui/TooltipUI.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/lite/ui/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/src/js/summernote.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/Context.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/core/dom.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/core/func.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/core/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/core/key.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/core/lists.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/core/range.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/editing/Table.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/editing/Typing.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/editing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/editing/style.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/module/Buttons.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/module/Codeview.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/module/Editor.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/module/Fullscreen.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/module/LinkDialog.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/module/VideoDialog.spec.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov-report/test/base/module/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/coverage/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/font/summernote.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/font/summernote.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/font/summernote.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-ar-AR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-ar-AR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-bg-BG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-bg-BG.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-ca-ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-ca-ES.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-cs-CZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-cs-CZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-da-DK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-da-DK.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-de-DE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-de-DE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-el-GR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-el-GR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-es-ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-es-ES.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-es-EU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-es-EU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-fa-IR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-fa-IR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-fi-FI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-fi-FI.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-fr-FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-fr-FR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-gl-ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-gl-ES.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-he-IL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-he-IL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-hr-HR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-hr-HR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-hu-HU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-hu-HU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-id-ID.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-id-ID.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-it-IT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-it-IT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-ja-JP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-ja-JP.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-ko-KR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-ko-KR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-lt-LT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-lt-LT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-lt-LV.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-lt-LV.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-mn-MN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-mn-MN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-nb-NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-nb-NO.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-nl-NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-nl-NL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-pl-PL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-pl-PL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-pt-BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-pt-PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-pt-PT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-ro-RO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-ro-RO.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-ru-RU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-ru-RU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-sk-SK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-sk-SK.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-sl-SI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-sl-SI.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-sr-RS-Latin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-sr-RS-Latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-sr-RS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-sr-RS.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-sv-SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-sv-SE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-ta-IN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-ta-IN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-th-TH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-th-TH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-tr-TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-tr-TR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-uk-UA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-uk-UA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-uz-UZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-uz-UZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-vi-VN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-vi-VN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/lang/summernote-zh-TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/summernote-0.8.12-dist.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/summernote-bs4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/summernote-bs4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/summernote-bs4.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/summernote-bs4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/summernote-lite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/summernote-lite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/summernote-lite.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/summernote-lite.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/summernote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/summernote.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/summernote.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/dist/summernote.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/airmode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/bs2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/bs3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/bs4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/codemirror.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/codeview-filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/custom-style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/example.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/external-api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/hint-emoji.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/hint-symbols_mathematical-symbols_Greek-letters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/hint-userdefine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/ie8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/jquery-custom-event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/lang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/link-blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/lite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/ondialog-multitab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/ondialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/placeholder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/plugin-hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/symbols_mathematical-symbols_Greek-letters.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/textarea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/toolbar-container.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/examples/with-google-font.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/karma.ci.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-ar-AR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-bg-BG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-ca-ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-cs-CZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-da-DK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-de-DE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-el-GR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-es-ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-es-EU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-fa-IR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-fi-FI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-fr-FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-gl-ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-he-IL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-hr-HR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-hu-HU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-id-ID.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-it-IT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-ja-JP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-ko-KR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-lt-LT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-lt-LV.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-mn-MN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-nb-NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-nl-NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-pl-PL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-pt-PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-ro-RO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-ru-RU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-sk-SK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-sl-SI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-sr-RS-Latin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-sr-RS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-sv-SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-ta-IN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-th-TH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-tr-TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-uk-UA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-uz-UZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-vi-VN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/lang/summernote-zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/plugin/databasic/summernote-ext-databasic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/plugin/databasic/summernote-ext-databasic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/plugin/hello/summernote-ext-hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/plugin/specialchars/summernote-ext-specialchars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/align-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/align-indent.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/align-justify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/align-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/align-outdent.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/align-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/align.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/arrow-circle-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/arrow-circle-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/arrow-circle-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/arrow-circle-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/arrows-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/arrows-h.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/arrows-v.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/caret.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/chain-broken.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/code.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/col-after.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/col-before.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/col-remove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/dist/_summernote.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/dist/font/summernote.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/dist/font/summernote.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/dist/font/summernote.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/dist/summernote.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/dist/summernote.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/eraser.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/float-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/float-none.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/float-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/frame.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/magic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/menu-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/orderedlist.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/pencil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/picture.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/question.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/redo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/rollback.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/row-above.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/row-below.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/row-remove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/special-character.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/strikethrough.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/subscript.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/summernote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/superscript.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/templates/summernote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/templates/summernote.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/text-height.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/underline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/undo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/unorderedlist.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/icons/video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/Context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/core/async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/core/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/core/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/core/func.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/core/key.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/core/lists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/core/range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/editing/Bullet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/editing/History.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/editing/Style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/editing/Table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/editing/Typing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/AirPopover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/AutoLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/AutoReplace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/AutoSync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/Buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/Clipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/Codeview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/Dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/Editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/Fullscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/Handle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/HelpDialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/HintPopover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/ImageDialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/ImagePopover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/LinkDialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/LinkPopover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/Placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/Statusbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/TablePopover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/Toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/module/VideoDialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/base/summernote-en-US.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/bs3/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/bs3/ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/bs4/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/bs4/ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/lite/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/lite/ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/lite/ui/DropdownUI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/lite/ui/ModalUI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/lite/ui/PopoverUI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/lite/ui/TooltipUI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/js/summernote.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/elements.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/elements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/lite-ui/all.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/lite-ui/btn-group.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/lite-ui/buttons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/lite-ui/common.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/lite-ui/dropdown.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/lite-ui/form.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/lite-ui/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/lite-ui/mixins/buttons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/lite-ui/modal.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/lite-ui/popover.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/lite-ui/toolbar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/lite-ui/tooltip.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/lite-ui/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/summernote-bs4.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/summernote-bs4.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/summernote-lite.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/summernote.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/src/less/summernote.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/summernote/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/article/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/article/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/article/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CriticController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SuggestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SuggestionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/landing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/landing.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/critic/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/critic/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/site/kritik.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/site/kritik.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/article/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/article/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/critic/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/site/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/site/blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/site/singleblog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/site/single-blog.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,17 +1017,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../PKL/ProjekPkl/Projectpkl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/pages/site" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\pbf-uas\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\pbf-uas\resources\views\components" />
       <recent name="C:\xampp\htdocs\pbf-uas\resources\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\uas-pbf\uas-pbf\resources\views\pages\site" />
+      <recent name="C:\xampp\htdocs\uas-pbf\uas-pbf\resources\views\pages\article" />
+      <recent name="C:\xampp\htdocs\uas-pbf\uas-pbf\public" />
+      <recent name="C:\xampp\htdocs\pbf-uas\public" />
     </key>
   </component>
   <component name="RunManager">
@@ -189,6 +1060,8 @@
       <workItem from="1609769799743" duration="4373000" />
       <workItem from="1609745141665" duration="1222000" />
       <workItem from="1609805421471" duration="12057000" />
+      <workItem from="1609836051137" duration="20155000" />
+      <workItem from="1609918380193" duration="661000" />
     </task>
     <servers />
   </component>
@@ -208,15 +1081,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609853094217">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609864147138">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609853094217" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1609863516486">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609864147138" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1609862289625">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609863516486" />
-    <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609684668028" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609862289625" />
     <state x="604" y="332" key="NewPhpFileDialog" timestamp="1608867267046">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

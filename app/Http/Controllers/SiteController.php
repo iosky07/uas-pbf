@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Article;
+use App\Comment;
 use App\Models\Content;
 use App\Models\Tag;
 use App\Suggestion;
@@ -21,9 +22,14 @@ class SiteController extends Controller
         $article = Article::all();
         return view('pages.site.blog', compact('article'));
     }
-    public function singleblog()
+    public function singleBlog($id)
     {
-        return view('pages.site.singleblog');
+        $article = Article::whereId($id)->get();
+        $comments = Comment::whereIdArticle($id)->get();
+        $comment_count = count($comments);
+        $user = Auth::id();
+
+        return view('pages.site.single-blog', compact('article', 'comments', 'comment_count', 'user'));
     }
     public function pagekritik()
     {
