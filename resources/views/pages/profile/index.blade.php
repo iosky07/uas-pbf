@@ -28,11 +28,13 @@
                     <div class="col-lg-6">
                         <div class="row">
                             <div class="col-12">
-                                <img src="{{asset('frontend/img/elements/d.jpg')}}" alt="" class="rounded-circle">
+                                <img src="{{asset('frontend/img/elements/d.jpg')}}" alt="" class="rounded-circle" style="margin-bottom: 30px">
                             </div>
-                            <div class="col-12">
-                                <a href="#" class="genric-btn primary-border">Ubah</a>
-                            </div>
+                            <form action="{{ route('manage-users.store', Auth::id()) }}" method="POST" style="display: inline">
+                                <input type="hidden" name="_method">
+                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                <button class="genric-btn primary-border"><i class="fa fa-16px fa-pen"></i> Ganti Foto</button>
+                            </form>
                         </div>
                     </div>
                     @foreach($users as $user)
@@ -44,13 +46,13 @@
                                 <div class="col-12">
                                     <div class="form-group">
                                         <h3>Nama</h3>
-                                        <textarea class="form-control w-100" name="name" id="critic" cols="30" rows="2" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'">{{ Auth::user()->name }}</textarea>
+                                        <input class="form-control w-100" name="name" id="critic" cols="30" rows="2" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" value="{{ Auth::user()->name }}">
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
                                         <h3>Email</h3>
-                                        <textarea class="form-control w-100" name="email" id="suggestion" cols="30" rows="2" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" disabled>{{ Auth::user()->email }}</textarea>
+                                        <input class="form-control w-100" name="email" id="suggestion" cols="30" rows="2" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" value="{{ Auth::user()->email }}" disabled>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -62,7 +64,7 @@
                                 <div class="col-12">
                                     <div class="form-group">
                                         <button class="genric-btn primary-border" type="submit" >Simpan</button>
-                                        <a href="#" class="genric-btn danger-border">Batal</a>
+                                        <a href="{{ url('/profile') }}" class="genric-btn danger-border">Batal</a>
                                     </div>
                                 </div>
                             </div>

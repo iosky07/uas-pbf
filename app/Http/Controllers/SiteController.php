@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Auth;
 
 class SiteController extends Controller
 {
+    public $array;
+
     public function about()
     {
         return view('pages.site.about');
@@ -27,9 +29,13 @@ class SiteController extends Controller
         $article = Article::whereId($id)->get();
         $comments = Comment::whereIdArticle($id)->get();
         $comment_count = count($comments);
-        $user = Auth::id();
+        $user = Comment::whereIdUser(Auth::id())->pluck('id_user');
 
-        return view('pages.site.single-blog', compact('article', 'comments', 'comment_count', 'user'));
+        foreach ($user as $u) {
+            $this->array = $u;
+        }
+
+        return view('pages.site.single-blog', compact('article', 'comments', 'comment_count'));
     }
     public function pagekritik()
     {

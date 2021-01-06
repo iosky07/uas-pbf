@@ -27,7 +27,8 @@ Route::resources([
     'articles' => 'ArticleController',
     'suggestions' => 'SuggestionController',
     'comments' => 'CommentController',
-    'users' => 'HomeController'
+    'users' => 'HomeController',
+    'manage-users' => 'UserController'
 ]);
 Route::get('about',[\App\Http\Controllers\SiteController::class,'about'])->name('about');
 Route::get('blog',[\App\Http\Controllers\SiteController::class,'blog'])->name('blog');

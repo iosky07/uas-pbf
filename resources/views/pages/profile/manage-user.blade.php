@@ -4,14 +4,14 @@
 @section('content')
     <section class="section">
         <div class="section-header">
-            <h1>Komentar</h1>
+            <h1>User</h1>
         </div>
         <div class="section-body">
             <section class="section">
                 <div class="col-12 col-md-12 col-lg-12">
                     <div class="card">
                         <div class="card-header">
-                            <h4>Data Komentar</h4>
+                            <h4>Data User</h4>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -19,18 +19,18 @@
                                     <tr>
                                         <th>Id User</th>
                                         <th>Nama</th>
-                                        <th>Komentar</th>
-                                        <th>Dibuat pada</th>
+                                        <th>Email</th>
+                                        <th>Foto Profil</th>
                                         <th>Action</th>
                                     </tr>
-                                    @foreach($comments as $c)
+                                    @foreach($users as $u)
                                         <tr>
-                                            <td>{{$c->id_user}}</td>
-                                            <td>{{$c->user->name}}</td>
-                                            <td>{{$c->comment}}</td>
-                                            <td>{{$c->created_at}}</td>
+                                            <td>{{$u->id}}</td>
+                                            <td>{{$u->name}}</td>
+                                            <td>{{$u->email}}</td>
+                                            <td>{{$u->thumbnail}}</td>
                                             <td>
-                                                <form action="{{route('comments.destroy', $c->id) }}" method="POST" style="display: inline">
+                                                <form action="{{route('manage-users.destroy', $u->id) }}" method="POST" style="display: inline">
                                                     <input type="hidden" name="_method" value="DELETE">
                                                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                                     <button class="btn btn-danger"><i class="fa fa-16px fa-trash"></i> Hapus</button>
