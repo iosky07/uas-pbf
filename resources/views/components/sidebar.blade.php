@@ -2,18 +2,17 @@
     <div class="main-sidebar">
         <aside id="sidebar-wrapper">
             <div class="sidebar-brand">
-                <a href="index.html">Stisla</a>
-            </div>
-            <div class="sidebar-brand sidebar-brand-sm">
-                <a href="index.html">St</a>
+                <a href="#">Stisla</a>
             </div>
             <ul class="sidebar-menu">
                 <li class="menu-header">Dashboard</li>
                 <li class="nav-item dropdown">
-                    <a href="{{ route('home') }}" class="nav-link"><i class="fas fa-fire"></i><span>Dashboard</span></a>
                     <a href="/" class="nav-link"><i class="fas fa-fire"></i><span>Dashboard User</span></a>
                 </li>
                 <li class="menu-header">Manajemen</li>
+                <li class="nav-item dropdown">
+                    <a href="{{ route('manage-users.index') }}" class="nav-link"><i class="fas fa-users"></i><span>User</span></a>
+                </li>
                 <li class="nav-item dropdown">
                     <a href="{{ route('articles.index') }}" class="nav-link"><i class="fas fa-file"></i> <span>Artikel</span></a>
                 </li>

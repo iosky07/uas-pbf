@@ -54,4 +54,10 @@ class HomeController extends Controller
     public function show($id){
 
     }
+
+    public function destroy($id){
+        User::find($id)->delete();
+
+        return redirect(route('comments.index'));
+    }
 }

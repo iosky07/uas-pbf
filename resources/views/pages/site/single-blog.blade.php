@@ -58,7 +58,7 @@
                                             </h5>
                                             <p class="date">{{ $c->created_at }}</p>
                                         </div>
-                                        @if(Auth::id()==$user)
+                                        @if(Auth::id() == $c->id_user)
                                         <div class="reply-btn">
                                             <form action="{{route('destroy-comment', [$c->id, $a->id]) }}" method="GET" style="display: inline">
                                                 <input type="hidden" name="_method" value="DELETE">
