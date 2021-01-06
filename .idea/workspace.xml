@@ -19,16 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-      <change beforePath="$PROJECT_DIR$/app/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
+    <list default="true" id="170793f4-65f9-46d0-8031-85c87d0c5387" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/profile/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CriticController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Suggestion.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Suggestion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SuggestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SuggestionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/landing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/landing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/critic/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/critic/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/site/kritik.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/site/kritik.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
-    <list default="true" id="6df15ecd-8299-4fee-91f7-f4afc650b486" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,12 +155,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\pbf-uas\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\pbf-uas\resources\views\components" />
       <recent name="C:\xampp\htdocs\pbf-uas\resources\views" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\pbf-uas\public" />
     </key>
   </component>
   <component name="RunManager">
@@ -178,11 +183,12 @@
       <workItem from="1608857506860" duration="10054000" />
       <workItem from="1608882057446" duration="659000" />
       <workItem from="1609345175281" duration="1312000" />
-      <workItem from="1609489102657" duration="1664000" />
       <workItem from="1609569449162" duration="15827000" />
       <workItem from="1609680785051" duration="3880000" />
       <workItem from="1609744898095" duration="3869000" />
       <workItem from="1609769799743" duration="4373000" />
+      <workItem from="1609745141665" duration="1222000" />
+      <workItem from="1609805421471" duration="12057000" />
     </task>
     <servers />
   </component>
@@ -190,40 +196,34 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609587653900">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609853094217">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609587653900" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1609771878064">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609853094217" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1609863516486">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609771878064" />
-    <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1609684668028">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609684668028" />
-    <state width="1493" height="204" key="GridCell.Tab.0.center" timestamp="1609684668028">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609684668028" />
-    <state width="1493" height="204" key="GridCell.Tab.0.left" timestamp="1609684668028">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609684668028" />
-    <state width="1493" height="204" key="GridCell.Tab.0.right" timestamp="1609684668028">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609863516486" />
     <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609684668028" />
     <state x="604" y="332" key="NewPhpFileDialog" timestamp="1608867267046">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="332" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1608867267046" />
-    <state x="479" y="129" width="577" height="566" key="find.popup" timestamp="1608860586173">
+    <state x="479" y="129" width="577" height="566" key="find.popup" timestamp="1609824842405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="479" y="129" width="577" height="566" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1608860586173" />
+    <state x="479" y="129" width="577" height="566" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1609824842405" />
   </component>
 </project>

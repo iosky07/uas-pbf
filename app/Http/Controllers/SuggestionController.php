@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Comment;
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Http\Request;
 use App\Suggestion;
@@ -17,8 +18,7 @@ class SuggestionController extends Controller
     public function index()
     {
         $suggestions = Suggestion::all();
-        $user = Auth::id();
-        return view('pages.site.kritik', compact('suggestions','user'));
+        return view('pages.critic.index', compact('suggestions'));
     }
 
     /**
@@ -39,13 +39,13 @@ class SuggestionController extends Controller
      */
     public function store(Request $request)
     {
-        $a=Suggestion::create([
+        Suggestion::create([
             'critic' => $request->critic,
             'suggestion' => $request->suggestion,
             'id_user' => Auth::id()
         ]);
-        dd($a);
-        return view('pages.site.kritik');
+        $user = Auth::user();
+        return view('pages.site.kritik',compact('user'));
     }
 
     /**
@@ -90,6 +90,9 @@ class SuggestionController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $suggestions = Suggestion::find($id);
+        $suggestions ->delete();
+
+        return redirect(route('suggestions.index'));
     }
 }

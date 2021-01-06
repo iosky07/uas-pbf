@@ -4,45 +4,39 @@
 @section('content')
     <section class="section">
         <div class="section-header">
-            <h1>Data Kritik Saran</h1>
-            <div class="section-header-breadcrumb">
-                <div class="breadcrumb-item active"><a href="#">Dashboard</a></div>
-                <div class="breadcrumb-item"><a href="#">Components</a></div>
-                <div class="breadcrumb-item">Table</div>
-            </div>
+            <h1>Komentar</h1>
         </div>
-
         <div class="section-body">
             <section class="section">
                 <div class="col-12 col-md-12 col-lg-12">
                     <div class="card">
                         <div class="card-header">
-                            <h4>P</h4>
+                            <h4>Data Komentar</h4>
                         </div>
-                        <div class="card-body p-0 ">
+                        <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-striped table-md">
                                     <tr>
-                                        <th>ID User</th>
+                                        <th>Id User</th>
                                         <th>Nama</th>
-                                        <th>Saran</th>
-                                        <th>Kritik</th>
-                                        <th>Dibuat Pada</th>
-                                        <th>Aksi</th>
+                                        <th>Komentar</th>
+                                        <th>Dibuat pada</th>
+                                        <th>Action</th>
                                     </tr>
-                                    @foreach($suggestions as $suggestion)
-                                    <tr>
-                                        <td>{{$suggestion->id_user}}</td>
-                                        <td>{{$suggestion->user->name}}</td>
-                                        <td>{{$suggestion->suggestion}}</td>
-                                        <td>{{$suggestion->critic}}</td>
-                                        <td>{{$suggestion->user->created_at}}</td>
-                                        <td><form action="{{route('suggestions.destroy', $suggestion->id) }}" method="POST" style="display: inline">
-                                                <input type="hidden" name="_method" value="DELETE">
-                                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                                <button class="btn btn-danger"><i class="fa fa-16px fa-trash"></i> Hapus</button>
-                                            </form></td>
-                                    </tr>
+                                    @foreach($comments as $c)
+                                        <tr>
+                                            <td>{{$c->id_user}}</td>
+                                            <td>{{$c->name}}</td>
+                                            <td>{{$c->comment}}</td>
+                                            <td>{{$c->created_at}}</td>
+                                            <td>
+                                                <form action="{{route('comments.destroy', $c->id) }}" method="POST" style="display: inline">
+                                                    <input type="hidden" name="_method" value="DELETE">
+                                                    <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                                    <button class="btn btn-danger"><i class="fa fa-16px fa-trash"></i> Hapus</button>
+                                                </form>
+                                            </td>
+                                        </tr>
                                     @endforeach
                                 </table>
                             </div>
@@ -70,3 +64,5 @@
         </div>
     </section>
 @endsection
+
+
