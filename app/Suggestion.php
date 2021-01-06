@@ -24,7 +24,7 @@ class Suggestion extends Model
     /**
      * @var array
      */
-    protected $fillable = ['id_user', 'critic', 'suggestion', 'created_at', 'updated_at'];
+    protected $fillable = ['id_user', 'critic', 'suggestion'];
 
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo

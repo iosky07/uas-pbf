@@ -11,6 +11,7 @@
                 <li class="menu-header">Dashboard</li>
                 <li class="nav-item dropdown">
                     <a href="{{ route('home') }}" class="nav-link"><i class="fas fa-fire"></i><span>Dashboard</span></a>
+                    <a href="/" class="nav-link"><i class="fas fa-fire"></i><span>Dashboard User</span></a>
                 </li>
                 <li class="menu-header">Manajemen</li>
                 <li class="nav-item dropdown">
@@ -20,7 +21,7 @@
                     <a href="{{ route('comments.index') }}" class="nav-link"><i class="fas fa-comments"></i> <span>Komentar</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a href="#" class="nav-link"><i class="fas fa-eye-dropper"></i> <span>Kritik dan Saran</span></a>
+                    <a href="{{ route('suggestions.index') }}" class="nav-link"><i class="fas fa-eye-dropper"></i> <span>Kritik dan Saran</span></a>
                 </li>
 
             </ul>
