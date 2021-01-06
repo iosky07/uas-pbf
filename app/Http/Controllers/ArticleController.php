@@ -1,11 +1,19 @@
 <?php
 
 namespace App\Http\Controllers;
+<<<<<<< Updated upstream
 use App\Article;
 use App\Comment;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
+=======
+
+use App\Article;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use function Sodium\compare;
+>>>>>>> Stashed changes
 
 class ArticleController extends Controller
 {
@@ -13,12 +21,19 @@ class ArticleController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Http\Response|\Illuminate\View\View
      */
     public function index()
     {
+<<<<<<< Updated upstream
         $articles = Article::all();
         return view('pages.article.index', compact('articles'));
+=======
+        $article = Article::get();
+//        dd($article);
+
+        return view('pages.article.index', compact('article'));
+>>>>>>> Stashed changes
     }
 
     /**
@@ -39,6 +54,7 @@ class ArticleController extends Controller
      */
     public function store(Request $request)
     {
+<<<<<<< Updated upstream
         $this->data['title'] = $request->judul;
         $this->data['content'] = $request->contents;
         $this->data['thumbnail'] = date('dmyHis') . '.' . $request->file->extension();
@@ -49,6 +65,37 @@ class ArticleController extends Controller
         Article::create($this->data);
 
         return redirect(route('articles.index'));
+=======
+        $request->validate([
+            'title'    =>  'required',
+            'content'     =>  'required',
+//            'image'         =>  'required|image|max:2048'
+        ]);
+
+//        $image = $request->file('image');
+//
+//        $new_name = rand() . '.' . $image->getClientOriginalExtension();
+//        $image->move(public_path('images'), $new_name);
+
+//        $form_data = array(
+//            'title'     =>   $request->title,
+//            'content'   =>   $request->content,
+//            'user_id'   => Auth::id()
+//        );
+//        dd($form_data);
+
+        Article::create([
+                'title'     =>   $request->title,
+                'content'   =>   $request->content,
+                'id_user'   => Auth::id()
+                //            'image'            =>   $new_name
+        ]);
+
+        $article = Article::get();
+//        dd($article);
+
+        return view('pages.article.index', compact('article'));
+>>>>>>> Stashed changes
     }
 
     /**

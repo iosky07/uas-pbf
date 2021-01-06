@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6df15ecd-8299-4fee-91f7-f4afc650b486" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/resources/views/pages/profile/manage-user.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
@@ -575,6 +576,16 @@
       <change beforePath="$PROJECT_DIR$/resources/views/pages/profile/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/profile/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/site/single-blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/site/single-blog.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/article/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/article/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/article/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -692,17 +703,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< Updated upstream
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/pages/profile" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/pages/article" />
+>>>>>>> Stashed changes
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< Updated upstream
       <recent name="C:\xampp\htdocs\uas-pbf\uas-pbf\resources\views\pages\profile" />
       <recent name="C:\xampp\htdocs\uas-pbf\uas-pbf\resources\views\pages\site" />
       <recent name="C:\xampp\htdocs\uas-pbf\uas-pbf\resources\views\pages\article" />
       <recent name="C:\xampp\htdocs\uas-pbf\uas-pbf\public" />
+=======
+      <recent name="C:\xampp\htdocs\uas-pbf\uas-pbf\resources\views\pages\article" />
+>>>>>>> Stashed changes
       <recent name="C:\xampp\htdocs\pbf-uas\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -729,6 +748,7 @@
       <workItem from="1608855403090" duration="1711000" />
       <workItem from="1608857506860" duration="10054000" />
       <workItem from="1608882057446" duration="659000" />
+<<<<<<< Updated upstream
       <workItem from="1609345175281" duration="1312000" />
       <workItem from="1609569449162" duration="15827000" />
       <workItem from="1609680785051" duration="3880000" />
@@ -738,6 +758,9 @@
       <workItem from="1609805421471" duration="12057000" />
       <workItem from="1609836051137" duration="20155000" />
       <workItem from="1609918380193" duration="1250000" />
+=======
+      <workItem from="1609345175281" duration="13216000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -757,6 +780,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< Updated upstream
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609924837849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -769,13 +793,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="119" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1609924091393" />
+=======
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1609357383287">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609357383287" />
+    <state x="577" y="119" key="NewPhpClassDialog" timestamp="1609355693660">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="577" y="119" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1609355693660" />
+>>>>>>> Stashed changes
     <state x="604" y="332" key="NewPhpFileDialog" timestamp="1608867267046">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="332" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1608867267046" />
+<<<<<<< Updated upstream
     <state x="479" y="129" width="577" height="566" key="find.popup" timestamp="1609824842405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="479" y="129" width="577" height="566" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1609824842405" />
+=======
+    <state x="479" y="129" width="577" height="566" key="find.popup" timestamp="1609490132649">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="479" y="129" width="577" height="566" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1609490132649" />
+>>>>>>> Stashed changes
   </component>
 </project>

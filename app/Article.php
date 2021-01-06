@@ -43,4 +43,9 @@ class Article extends Model
     {
         return $this->hasMany('App\Comment', 'id_article');
     }
+
+//    public function search($query) {
+//        return empty($query) ? static::query()
+//            : static::where('title', 'like', '%'.$query.'%');
+//    }
 }

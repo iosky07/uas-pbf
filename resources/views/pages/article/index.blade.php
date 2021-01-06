@@ -7,6 +7,7 @@
             <h1>Artikel</h1>
         </div>
         <div class="section-body">
+<<<<<<< Updated upstream
             <section class="section">
                 <div class="col-12 col-md-12 col-lg-12">
                     <div class="card">
@@ -68,6 +69,33 @@
                                     </li>
                                 </ul>
                             </nav>
+=======
+        <section class="section">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        <a href="{{route('articles.create')}}" class="-ml- btn btn-primary shadow-none">Tambah Data Baru</a>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-md">
+                                <tr>
+                                    <th>No</th>
+                                    <th>Name</th>
+                                    <th>Created At</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                                @foreach( $article as $a)
+                                <tr>
+                                    <td>{{$a->id_user}}</td>
+                                    <td>{{$a->title}}</td>
+                                    <td>{{$a->content}}</td>
+                                    <td>{{$a->created_at}}</td>
+                                </tr>
+                                @endforeach
+                            </table>
+>>>>>>> Stashed changes
                         </div>
                     </div>
                 </div>
