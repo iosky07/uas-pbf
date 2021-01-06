@@ -39,4 +39,5 @@ Route::get('comment/{id}/',[\App\Http\Controllers\CommentController::class,'upda
 Route::get('comment/{id}/{id_article}',[\App\Http\Controllers\CommentController::class,'destroyComment'])->name('destroy-comment');
 
 Route::get('profile/{id}/',[\App\Http\Controllers\UserController::class,'storeThumbnail'])->name('store-thumbnail');
-
+Route::get('suggestions/',[\App\Http\Controllers\SuggestionController::class,'storeSuggestion'])->name('store-suggestion');
+Route::get('suggestions-dahboard/',[\App\Http\Controllers\SuggestionController::class,'index'])->name('index-suggestion');

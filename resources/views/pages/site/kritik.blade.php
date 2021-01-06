@@ -26,24 +26,30 @@
                     <h2 class="contact-title">Masukan Anda Sangat Berarti bagi Kami</h2>
                 </div>
                 <div class="col-lg-8">
-                    <form class="form-contact contact_form" action="{{ route('suggestions.store') }}" method="post" id="contactForm" novalidate="novalidate">
+                    <form class="form-contact contact_form" action="{{ route('store-suggestion') }}" method="post" id="contactForm" >
                         @csrf
+                        @method('head')
                         <div class="row">
                             <div class="col-12">
                                 <div class="form-group">
+                                  @if (session('success'))
+                                      <div class="alert alert-success">
+                                          {{ session('success') }}
+                                      </div>
+                                  @endif
                                     <h3>Kritik</h3>
-                                    <textarea class="form-control w-100" name="critic" id="critic" cols="30" rows="5" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder = 'Kritik'></textarea>
+                                    <textarea class="form-control" name="critic" id="critic" cols="30" rows="5"  required></textarea>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
                                     <h3>Saran</h3>
-                                    <textarea class="form-control w-100" name="suggestion" id="suggestion" cols="30" rows="5" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder = 'Saran'></textarea>
+                                    <textarea class="form-control" name="suggestion" id="suggestion" cols="30" rows="5" required></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group mt-3">
-                            <button type="submit" class="button button-contactForm btn_1">Send Message</button>
+                            <input type="submit" value="kirim" class="button button-contactForm btn_1">
                         </div>
                     </form>
                 </div>
@@ -51,22 +57,22 @@
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-home"></i></span>
                         <div class="media-body">
-                            <h3>Buttonwood, California.</h3>
-                            <p>Rosemead, CA 91770</p>
+                            <h3>Sistem Informasi, Ilmu Komputer</h3>
+                            <p>Universitas Jember</p>
                         </div>
                     </div>
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                         <div class="media-body">
-                            <h3>00 (440) 9865 562</h3>
-                            <p>Mon to Fri 9am to 6pm</p>
+                            <h3>(+62)899 9442 993</h3>
+                            <p>Fernaldi Widharsono</p>
                         </div>
                     </div>
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-email"></i></span>
                         <div class="media-body">
-                            <h3>support@colorlib.com</h3>
-                            <p>Send us your query anytime!</p>
+                            <h5>182410101078@students.unej.ac.id</h5>
+                            <p>Yoski Tanjung</p>
                         </div>
                     </div>
                 </div>
