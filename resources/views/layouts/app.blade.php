@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="{{asset('stisla/node_modules/owl.carousel/dist/assets/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{asset('stisla/node_modules/owl.carousel/dist/assets/owl.theme.default.min.css')}}">
 
+    <!-- CSS Libraries -->
+{{--    <link rel="stylesheet" href="{{asset('vendor/summernote/dist/summernote-bs4.css')}}">--}}
     <!-- Template CSS -->
     <link rel="stylesheet" href="{{asset('stisla/assets/css/style.css')}}">
     <link rel="stylesheet" href="{{asset('stisla/assets/css/components.css')}}">
@@ -276,6 +278,9 @@
 <!-- Template JS File -->
 <script src="{{asset('stisla/assets/js/scripts.js')}}"></script>
 <script src="{{asset('stisla/assets/js/custom.js')}}"></script>
+
+<!-- JS Libraies -->
+{{--<script src="{{asset('vendor/summernote/dist/summernote-bs4.js')}}"></script>--}}
 
 <!-- Page Specific JS File -->
 <script src="{{asset('stisla/assets/js/page/index.js')}}"></script>

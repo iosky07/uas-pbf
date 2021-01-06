@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>E-ticle</title>
+    <title>Etrain</title>
     <link rel="icon" href="{{asset('frontend/img/favicon.png')}}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{asset('frontend/css/bootstrap.min.css')}}">
@@ -59,9 +59,28 @@
                                     @if (Route::has('login'))
                                         <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                                             @auth
-                                                <a class="btn_1" href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="{{ url('/dashboard') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        {{ Auth::user()->name }}
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                        <a class="dropdown-item" href="{{ url('/dashboard') }}">Dashboard</a>
+                                                        @if(Auth::user()->role==2)
+                                                            <a class="dropdown-item" href="{{ url('/dashboard') }}">Profil</a>
+                                                        @endif
+                                                        <a class="dropdown-item" href="{{ route('logout') }}"
+                                                           onclick="event.preventDefault();
+                                                            document.getElementById('logout-form').submit();">
+                                                            {{ __('Logout') }}
+                                                        </a>
+                                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                                            @csrf
+                                                        </form>
+                                                    </div>
+                                                </li>
                                             @else
                                                 <a class="btn_1" href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
+                                                <a class="btn_1" href="{{ route('register') }}" class="text-sm text-gray-700 underline">Register</a>
                                             @endif
                                         </div>
                                 @endif

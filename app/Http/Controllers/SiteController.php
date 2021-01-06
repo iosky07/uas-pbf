@@ -2,9 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Article;
+use App\Comment;
 use App\Models\Content;
 use App\Models\Tag;
+use App\Suggestion;
+use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class SiteController extends Controller
 {
@@ -14,14 +19,25 @@ class SiteController extends Controller
     }
     public function blog()
     {
-        return view('pages.site.blog');
+        $article = Article::all();
+        return view('pages.site.blog', compact('article'));
     }
-    public function singleblog()
+    public function singleBlog($id)
     {
-        return view('pages.site.singleblog');
+        $article = Article::whereId($id)->get();
+        $comments = Comment::whereIdArticle($id)->get();
+        $comment_count = count($comments);
+        $user = Auth::id();
+
+        return view('pages.site.single-blog', compact('article', 'comments', 'comment_count', 'user'));
     }
     public function pagekritik()
     {
-        return view('pages.site.kritik');
+        $suggestions = Suggestion::all();
+        $user = Auth::id();
+        return view('pages.site.kritik', compact('suggestions','user'));
+    }
+    public function passprofile(){
+        $profile = User::all();
     }
 }

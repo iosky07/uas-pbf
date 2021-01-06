@@ -18,6 +18,7 @@
     <!-- breadcrumb start-->
 
     <!-- ================ contact section start ================= -->
+    @isset($user)
     <section class="contact-section section_padding">
         <div class="container">
             <div class="row">
@@ -26,6 +27,7 @@
                 </div>
                 <div class="col-lg-8">
                     <form class="form-contact contact_form" action="{{ route('suggestions.store') }}" method="post" id="contactForm" novalidate="novalidate">
+                        @csrf
                         <div class="row">
                             <div class="col-12">
                                 <div class="form-group">
@@ -71,42 +73,21 @@
             </div>
         </div>
     </section>
-
-    <section class="testimonial_part">
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-xl-5">
-                    <div class="section_tittle text-center">
-                        <h2>Kritik Saran</h2>
+    @endisset
+    @if($user==null)
+        <section class="feature_part single_feature_padding">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-xl-10">
+                        <div class="section_tittle text-center">
+                            <h2>Mohon Maaf Anda Harus Login Terlebih Dahulu</h2>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="textimonial_iner owl-carousel">
+        </section>
+    @endif
 
-                            <div class="testimonial_slider">
-                                <div class="row">
-                                    <div class="col-lg-8 col-xl-6 col-sm-8 align-self-center">
-                                        <div class="testimonial_slider_text">
-                                            <p>pppppppppppppppppppppppppppppppppppppppppppppppppppppp</p>
-                                            <h4>penulisssssss</h4>
-                                            <h5>Positionnnnnnnnnnnnn</h5>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-8 col-xl-4 col-sm-8">
-                                        <div class="testimonial_slider_img">
-                                            <img src="" alt="#">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- ================ contact section end ================= -->
 
