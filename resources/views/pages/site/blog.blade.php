@@ -28,7 +28,8 @@
                             <img src="{{asset('storage/article-img/'.$ticle->thumbnail)}}" class="card-img-top" style="height: 300px; width: 300px" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">{{$ticle->title}}</h5>
-                                <p class="card-text">{!!$ticle->content!!}</p>
+                                <p class="card-text">{!!Str::limit($ticle->content,100)!!}</p>
+                                <br>
                                 <a href="{{ route('single-blog', $ticle->id) }}" class="btn btn-primary">Baca Selengkapnya</a>
                             </div>
                         </div>

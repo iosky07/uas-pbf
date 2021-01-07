@@ -48,30 +48,45 @@
                                     <img src="img/comment/comment_3.png" alt="">
                                 </div>
                                 <div class="desc">
-                                    <p class="comment">
+                                    <h2 class="comment">
                                         {{ $c->comment }}
-                                    </p>
-                                    <div class="d-flex justify-content-between">
-                                        <div class="d-flex align-items-center">
-                                            <h5>
-                                                <label>{{ $c->user->name }}</label>
-                                            </h5>
+                                    </h2>
+                                    <br>
+                                    <div class="row">
+                                      <div class="d-flex justify-content-between">
+                                        <div class="col-md-3">
+                                          <!-- <div class="d-flex align-items-center"> -->
+                                              <h6><b>
+                                                <label>{{ $c->user->name }}</label></b>
+                                              </h6>
+                                              <!-- </div> -->
+                                          </div>
+                                          <div class="col-md-1">
+                                            <b><p>|</p></b>
+                                          </div>
+                                          <div class="col-md-7">
                                             <p class="date">{{ $c->created_at }}</p>
-                                        </div>
-                                        @if(Auth::id() == $c->id_user)
-                                        <div class="reply-btn">
-                                            <form action="{{route('destroy-comment', [$c->id, $a->id]) }}" method="GET" style="display: inline">
-                                                <input type="hidden" name="_method" value="DELETE">
-                                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                                <button class="btn btn-danger"><i class="fa fa-16px fa-trash"></i> Hapus</button>
-                                            </form>
-                                        </div>
-                                        @endif
+                                          </div>
+
+
+
+
+                                          @if(Auth::id() == $c->id_user)
+                                          <div class="reply-btn">
+                                              <form action="{{route('destroy-comment', [$c->id, $a->id]) }}" method="GET" style="display: inline">
+                                                  <input type="hidden" name="_method" value="DELETE">
+                                                  <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                                  <button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
+                                              </form>
+                                          </div>
+                                          @endif
+                                      </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <hr>
                     @endforeach
                 </div>
                 @isset($user)
