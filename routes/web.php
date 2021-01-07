@@ -19,18 +19,16 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/dashboard', 'HomeController@index')->name('home');
-Route::get('/profile', 'HomeController@profile')->name('profile');
-
+Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resources([
     'articles' => 'ArticleController',
-    'suggestions' => 'SuggestionController',
-    'comments' => 'CommentController',
-    'users' => 'HomeController'
+    'suggestions' => 'SuggestionController'
+//    'posts' => 'PostController'
 ]);
 Route::get('about',[\App\Http\Controllers\SiteController::class,'about'])->name('about');
 Route::get('blog',[\App\Http\Controllers\SiteController::class,'blog'])->name('blog');
 Route::get('singleblog',[\App\Http\Controllers\SiteController::class,'singleblog'])->name('singleblog');
 Route::get('pagekritik',[\App\Http\Controllers\SiteController::class,'pagekritik'])->name('pagekritik');
 
+Route::get('critic',[\App\Http\Controllers\CriticController::class,'index'])->name('critic');
