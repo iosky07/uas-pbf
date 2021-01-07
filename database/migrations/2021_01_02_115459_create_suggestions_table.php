@@ -15,10 +15,15 @@ class CreateSuggestionsTable extends Migration
     {
         Schema::create('suggestions', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->integer('id_user');
+            $table->unsignedBigInteger('id_user');
             $table->string('critic');
             $table->string('suggestion');
             $table->timestamps();
+            $table->foreign('id_user')
+            ->references('id')
+            ->on('users')
+            ->onUpdate('cascade')
+            ->onDelete('cascade');
         });
     }
 
