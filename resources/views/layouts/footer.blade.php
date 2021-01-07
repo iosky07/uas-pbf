@@ -32,7 +32,7 @@
                     <div class="contact_info">
                         <p><span>Yoski Tanjung </span>- 182410101078</p>
                         <p><span>Fernaldi Widharsono </span>- 182410101083</p>
-                        <p><span>Muhammad Prasetyo </span>- 182410101093</p>
+                        <p><span>Muhammad Prasetyo </span>- 182410101091</p>
                     </div>
                 </div>
             </div>

@@ -36,7 +36,7 @@
                                         <td>{{$suggestion->user->name}}</td>
                                         <td>{{$suggestion->suggestion}}</td>
                                         <td>{{$suggestion->critic}}</td>
-                                        <td>{{$suggestion->user->created_at}}</td>
+                                        <td>{{$suggestion->created_at->format('d M Y H:i:s') }}</td>
                                         <td><form action="{{route('suggestions.destroy', $suggestion->id) }}" method="POST" style="display: inline">
                                                 <input type="hidden" name="_method" value="DELETE">
                                                 <input type="hidden" name="_token" value="{{ csrf_token() }}">

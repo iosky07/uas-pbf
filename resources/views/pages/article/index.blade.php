@@ -29,7 +29,7 @@
                                             <td>{{$a->user->name}}</td>
                                             <td>{{$a->title}}</td>
                                             <td><img src="{{asset('storage/article-img/'.$a->thumbnail)}}" style="width: 100px; height: 100px" alt=""></td>
-                                            <td>{{$a->created_at}}</td>
+                                            <td>{{ $a->created_at->format('d M Y H:i:s') }}</td>
                                             <td>
                                                 <form action="{{route('articles.edit', $a->id) }}" method="GET" style="display: inline">
                                                     <input type="hidden" name="_method" value="EDIT">
@@ -75,5 +75,3 @@
         </div>
     </section>
 @endsection
-
-

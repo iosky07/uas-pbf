@@ -6,6 +6,7 @@ use App\Comment;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
+use Carbon\Carbon;
 
 class ArticleController extends Controller
 {
@@ -44,6 +45,7 @@ class ArticleController extends Controller
         $this->data['thumbnail'] = date('dmyHis') . '.' . $request->file->extension();
         Storage::putFileAs('public/article-img', $request->file, $this->data['thumbnail']);
         $this->data['id_user'] = Auth::id();
+        $this->data['created_at'] = Carbon::now('WIB')->format('Y-m-d H:i:s');
 
 //        dd($this->data);
         Article::create($this->data);

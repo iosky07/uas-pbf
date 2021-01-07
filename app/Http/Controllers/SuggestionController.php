@@ -7,9 +7,11 @@ use Illuminate\Auth\Authenticatable;
 use Illuminate\Http\Request;
 use App\Suggestion;
 use Illuminate\Support\Facades\Auth;
+use Carbon\Carbon;
 
 class SuggestionController extends Controller
 {
+    public $data;
     /**
      * Display a listing of the resource.
      *
@@ -39,12 +41,18 @@ class SuggestionController extends Controller
      */
     public function storeSuggestion(Request $request)
     {
-
-        Suggestion::create([
-        'critic' => $request->critic,
-        'suggestion' => $request->suggestion,
-        'id_user' => Auth::id()
-        ]);
+      $this->data['critic'] = $request->critic;
+      $this->data['suggestion'] = $request->suggestion;
+      $this->data['id_user'] = Auth::id();
+      $this->data['created_at'] = Carbon::now('WIB')->format('d M Y H:i:s');
+      // dd($this->data);
+      Suggestion::create($this->data);
+        // Suggestion::create([
+        // 'critic' => $request->critic,
+        // 'suggestion' => $request->suggestion,
+        // 'id_user' => Auth::id(),
+        // 'created_at'=> Carbon::now('WIB')->format('Y-m-d H:i:s'),
+        // ]);
         $user = Auth::user();
         return redirect()->route('pagekritik',compact('user'))->with('success', 'Kritik dan saran berhasil terkirim!');
 
