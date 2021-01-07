@@ -37,15 +37,18 @@ class SuggestionController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function storeSuggestion(Request $request)
     {
+
         Suggestion::create([
-            'critic' => $request->critic,
-            'suggestion' => $request->suggestion,
-            'id_user' => Auth::id()
+        'critic' => $request->critic,
+        'suggestion' => $request->suggestion,
+        'id_user' => Auth::id()
         ]);
         $user = Auth::user();
-        return view('pages.site.kritik',compact('user'));
+        return redirect()->route('pagekritik',compact('user'))->with('success', 'Kritik dan saran berhasil terkirim!');
+
+
     }
 
     /**
