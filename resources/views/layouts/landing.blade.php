@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="{{asset('frontend/css/slick.css')}}">
     <!-- style CSS -->
     <link rel="stylesheet" href="{{asset('frontend/css/style.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -33,7 +34,7 @@
             <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand logo_1" href="/"> <img src="{{asset('frontend/img/favicon.png')}}" alt="logo"> </a>
-                    <a class="navbar-brand logo_2" href="/"> <img src="{{asset('frontend/img/logo.png')}}" alt="logo"> </a>
+                    <a class="navbar-brand logo_2" href="/"> <img src="{{asset('frontend/img/favicon.png')}}" alt="logo"> </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -49,9 +50,13 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('blog') }}">Blog</a>
                             </li>
+                            @if(Auth::check())
+                                @if(Auth::user()->role==2)
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('pagekritik') }}">Kritik Saran</a>
                             </li>
+                                @endif
+                            @endif
                             <li class="d-none d-lg-block">
                                 <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
                                     @if (Route::has('login'))
