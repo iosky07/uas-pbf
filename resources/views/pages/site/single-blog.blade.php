@@ -33,7 +33,7 @@
                                 <li><a href="#"><i class="far fa-comments"></i>{{ $a->created_at }}</a></li>
                             </ul>
                             <p class="excert">
-                                {{ $a->content }}
+                                {!! $a->content !!}
                             </p>
                         </div>
                     </div>

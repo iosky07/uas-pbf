@@ -2,7 +2,7 @@
     <div class="main-sidebar">
         <aside id="sidebar-wrapper">
             <div class="sidebar-brand">
-                <a href="#">Stisla</a>
+                <a href="#">E-ticle</a>
             </div>
             <ul class="sidebar-menu">
                 <li class="menu-header">Dashboard</li>
@@ -20,7 +20,7 @@
                     <a href="{{ route('comments.index') }}" class="nav-link"><i class="fas fa-comments"></i> <span>Komentar</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a href="{{ route('suggestions.index') }}" class="nav-link"><i class="fas fa-eye-dropper"></i> <span>Kritik dan Saran</span></a>
+                    <a href="{{ route('index-suggestion') }}" class="nav-link"><i class="fas fa-eye-dropper"></i> <span>Kritik dan Saran</span></a>
                 </li>
 
             </ul>

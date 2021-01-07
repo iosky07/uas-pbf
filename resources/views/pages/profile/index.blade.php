@@ -72,13 +72,13 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <h4>Password</h4>
+                                        <h4>Password Baru</h4>
                                         <input type="password" class="form-control w-100" name="password" id="suggestion" cols="30" rows="2" >
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <h4>Konfirmasi Password</h4>
+                                        <h4>Konfirmasi Password Baru</h4>
                                         <input type="password" class="form-control w-100" name="confirm_password" id="suggestion" cols="30" rows="2" >
                                     </div>
                                 </div>
