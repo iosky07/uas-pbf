@@ -7,7 +7,7 @@
             <ul class="sidebar-menu">
                 <li class="menu-header">Dashboard</li>
                 <li class="nav-item dropdown">
-                    <a href="/" class="nav-link"><i class="fas fa-fire"></i><span>Dashboard User</span></a>
+                    <a href="{{route('welcome')}}" class="nav-link"><i class="fas fa-fire"></i><span>Dashboard User</span></a>
                 </li>
                 <li class="menu-header">Manajemen</li>
                 <li class="nav-item dropdown">

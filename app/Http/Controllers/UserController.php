@@ -14,7 +14,7 @@ class UserController extends Controller
 
     public function index() {
 //        dd('asdasd');
-        $users = User::all();
+        $users = User::whereRole('2')->get();
         return view('pages.profile.manage-user', compact('users'));
     }
 

@@ -64,13 +64,9 @@
                                           <div class="col-md-1">
                                             <b><p>|</p></b>
                                           </div>
-                                          <div class="col-md-7">
-                                            <p class="date">{{ $c->created_at }}</p>
+                                          <div class="col-md-8">
+                                            <p class="date">{{ $c->created_at->format('d M Y H:i:s') }}</p>
                                           </div>
-
-
-
-
                                           @if(Auth::id() == $c->id_user)
                                           <div class="reply-btn">
                                               <form action="{{route('destroy-comment', [$c->id, $a->id]) }}" method="GET" style="display: inline">
@@ -90,7 +86,7 @@
                     @endforeach
                 </div>
                 @isset($user)
-                <div class="comment-form">
+                <div class="">
                     <h4>Masukkan Komentar</h4>
                     <form class="form-contact comment_form" action="{{ route('update-comment', $a->id) }}" method="GET" id="commentForm">
                         @csrf
