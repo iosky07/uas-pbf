@@ -80,7 +80,7 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-10">
                         <div class="section_tittle text-center">
-                            <h2>Mohon Maaf Anda Harus Login Terlebih Dahulu</h2>
+                            <h4 class="alert alert-danger">Anda harus login terlebih dahulu untuk memasukkan Kritik dan Saran</h4>
                         </div>
                     </div>
                 </div>

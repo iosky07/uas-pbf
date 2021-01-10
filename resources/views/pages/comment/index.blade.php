@@ -26,7 +26,7 @@
                                     @foreach($comments as $c)
                                         <tr>
                                             <td>{{$c->id_user}}</td>
-                                            <td>{{$c->name}}</td>
+                                            <td>{{$c->user->name}}</td>
                                             <td>{{$c->comment}}</td>
                                             <td>{{$c->created_at}}</td>
                                             <td>

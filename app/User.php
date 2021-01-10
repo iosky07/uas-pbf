@@ -3,6 +3,10 @@
 namespace App;
 
 use Illuminate\Contracts\Auth\Authenticatable;
+<<<<<<< Updated upstream
+=======
+use Illuminate\Auth\Authenticatable as AuthenticableTrait;
+>>>>>>> Stashed changes
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Auth\Authenticatable as AuthenticableTrait;
 
@@ -35,7 +39,7 @@ class User extends Model implements Authenticatable
     /**
      * @var array
      */
-    protected $fillable = ['name', 'email', 'role', 'status', 'photo', 'email_verified_at', 'password', 'remember_token', 'created_at', 'updated_at'];
+    protected $fillable = ['name', 'email', 'email_verified_at', 'password', 'remember_token', 'created_at', 'updated_at'];
 
     /**
      * @return \Illuminate\Database\Eloquent\Relations\HasMany

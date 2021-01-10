@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 Auth::routes();
 
@@ -23,12 +23,15 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resources([
     'articles' => 'ArticleController',
-    'suggestions' => 'SuggestionController'
-//    'posts' => 'PostController'
+    'suggestions' => 'SuggestionController',
+    'comments' => 'CommentController',
+    'users' => 'HomeController',
+    'manage-users' => 'UserController'
 ]);
 Route::get('about',[\App\Http\Controllers\SiteController::class,'about'])->name('about');
 Route::get('blog',[\App\Http\Controllers\SiteController::class,'blog'])->name('blog');
-Route::get('singleblog',[\App\Http\Controllers\SiteController::class,'singleblog'])->name('singleblog');
+Route::get('single-blog/{id}/',[\App\Http\Controllers\SiteController::class,'singleBlog'])->name('single-blog');
 Route::get('pagekritik',[\App\Http\Controllers\SiteController::class,'pagekritik'])->name('pagekritik');
-
-Route::get('critic',[\App\Http\Controllers\CriticController::class,'index'])->name('critic');
+Route::get('comment/{id}/',[\App\Http\Controllers\CommentController::class,'updateComment'])->name('update-comment');
+Route::get('comment/{id}/{id_article}',[\App\Http\Controllers\CommentController::class,'destroyComment'])->name('destroy-comment');
+Route::get('profile/{id}/',[\App\Http\Controllers\UserController::class,'storeThumbnail'])->name('store-thumbnail');

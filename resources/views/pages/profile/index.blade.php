@@ -25,17 +25,20 @@
                     <div class="col-12">
                         <h2 class="contact-title">Profil Anda</h2>
                     </div>
+                    @foreach($users as $user)
                     <div class="col-lg-6">
                         <div class="row">
                             <div class="col-12">
-                                <img src="{{asset('frontend/img/elements/d.jpg')}}" alt="" class="rounded-circle">
+                                <img src="{{asset('storage/article-img/'.$user->thumbnail)}}" alt="" class="rounded-circle" style="margin-bottom: 30px; width: 150px; height: 150px" >
                             </div>
-                            <div class="col-12">
-                                <a href="#" class="genric-btn primary-border">Ubah</a>
-                            </div>
+                            <form action="{{ route('store-thumbnail', Auth::id()) }}" method="POST" style="display: inline" enctype="multipart/form-data">
+                                @csrf
+                                @method('head')
+                                <input type="file" class="form-control" name="file" >
+                                <button type="submit" class="genric-btn primary-border"><i class="fa fa-16px fa-pen"></i>Ganti Foto</button>
+                            </form>
                         </div>
                     </div>
-                    @foreach($users as $user)
                     <div class="col-lg-6">
                         <form class="form-contact contact_form" action="{{route ('users.update', $user->id)}}" method="post" id="contactForm" novalidate="novalidate">
                             @csrf
@@ -43,26 +46,46 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <h3>Nama</h3>
-                                        <textarea class="form-control w-100" name="name" id="critic" cols="30" rows="2" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'">{{ Auth::user()->name }}</textarea>
+                                        @if (session('alert'))
+                                            <div class="alert alert-danger">
+                                                {{ session('alert') }}
+                                            </div>
+                                        @endif
+                                        @if (session('success'))
+                                            <div class="alert alert-success">
+                                                {{ session('success') }}
+                                            </div>
+                                        @endif
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <h3>Email</h3>
-                                        <textarea class="form-control w-100" name="email" id="suggestion" cols="30" rows="2" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" disabled>{{ Auth::user()->email }}</textarea>
+                                        <h4>Nama</h4>
+                                        <input class="form-control w-100" name="name" id="critic" cols="30" rows="2" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" value="{{ Auth::user()->name }}" required>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <h3>Password</h3>
-                                        <textarea class="form-control w-100" name="password" id="suggestion" cols="30" rows="2" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'">{{ Auth::user()->password}}</textarea>
+                                        <h4>Email</h4>
+                                        <input class="form-control w-100" name="email" id="suggestion" cols="30" rows="2" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" value="{{ Auth::user()->email }}" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <h4>Password</h4>
+                                        <input type="password" class="form-control w-100" name="password" id="suggestion" cols="30" rows="2" >
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <h4>Konfirmasi Password</h4>
+                                        <input type="password" class="form-control w-100" name="confirm_password" id="suggestion" cols="30" rows="2" >
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
                                         <button class="genric-btn primary-border" type="submit" >Simpan</button>
-                                        <a href="#" class="genric-btn danger-border">Batal</a>
+                                        <a href="{{ url('/profile') }}" class="genric-btn danger-border">Batal</a>
                                     </div>
                                 </div>
                             </div>

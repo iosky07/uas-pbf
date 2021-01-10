@@ -18,7 +18,7 @@ class Article extends Model
 {
     /**
      * The "type" of the auto-incrementing ID.
-     * 
+     *
      * @var string
      */
     protected $keyType = 'integer';
@@ -26,7 +26,7 @@ class Article extends Model
     /**
      * @var array
      */
-    protected $fillable = ['id_user', 'title', 'content', 'created_at', 'updated_at'];
+    protected $fillable = ['id_user', 'title', 'content', 'thumbnail', 'created_at', 'updated_at'];
 
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
@@ -43,4 +43,9 @@ class Article extends Model
     {
         return $this->hasMany('App\Comment', 'id_article');
     }
+
+//    public function search($query) {
+//        return empty($query) ? static::query()
+//            : static::where('title', 'like', '%'.$query.'%');
+//    }
 }
